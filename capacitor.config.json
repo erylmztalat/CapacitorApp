@@ -1,0 +1,8 @@
+{
+  "appId": "com.talate.capacitorapp",
+  "appName": "CapacitorApp",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
