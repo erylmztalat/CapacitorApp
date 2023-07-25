@@ -1,0 +1,28 @@
+PODS:
+  - Capacitor (5.2.2):
+    - CapacitorCordova
+  - CapacitorCordova (5.2.2)
+  - CapacitorRestapiPlugin (0.0.1):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - CapacitorRestapiPlugin (from `../../capacitor-restapi-plugin`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorRestapiPlugin:
+    :path: "../../capacitor-restapi-plugin"
+
+SPEC CHECKSUMS:
+  Capacitor: 070b18988e0f566728ae9a5eb3a7a974595f1626
+  CapacitorCordova: 3773395d5331add072300ff6041ca2cf7b93cb0b
+  CapacitorRestapiPlugin: 20e28e12bf49747f46dbba9e56dfa7165c5ab839
+
+PODFILE CHECKSUM: c44b93471c596a4d624542fff4d3f413ad5399e5
+
+COCOAPODS: 1.12.1
