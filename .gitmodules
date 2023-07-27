@@ -1,0 +1,3 @@
+[submodule "capacitor-restapi-plugin"]
+	path = capacitor-restapi-plugin
+	url = https://github.com/erylmztalat/RestApiPlugin
