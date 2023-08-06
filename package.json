@@ -4,7 +4,8 @@
   "description": "A capacitor application with a custom plugin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,12 @@
     "@capacitor/cli": "^5.2.2",
     "@capacitor/core": "^5.2.2",
     "@capacitor/ios": "^5.2.2",
-    "capacitor-restapi-plugin": "file:capacitor-restapi-plugin"
+    "@types/node": "^14.14.37",
+    "capacitor-restapi-plugin": "file:capacitor-restapi-plugin",
+    "copy-webpack-plugin": "^11.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
